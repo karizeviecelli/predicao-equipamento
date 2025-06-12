@@ -1,5 +1,5 @@
 # predicao-equipamento
-
+Link: https://predicao-equipamento-meczwcnanonsuuxlwnau6c.streamlit.app/
 Projeto Final — Sistema de Gerenciamento de Equipamentos Industriais
 Título
 Sistema de Gerenciamento de Equipamentos Industriais com Previsão de Preço e Classificação de Categoria
