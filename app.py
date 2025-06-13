@@ -43,7 +43,9 @@ entrada = pd.DataFrame([[
 # Botão de previsão
 if st.button("🔍 Prever preço"):
     try:
-        modelo = joblib.load("modelo_preco.pkl")
+        
+        modelo = joblib.load('modelo_preco_corrigido.pkl')
+
         preco_previsto = modelo.predict(entrada)
         st.success(f"💰 Preço previsto: R$ {preco_previsto[0]:,.2f}")
     except Exception as e:
