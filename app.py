@@ -27,10 +27,10 @@ com_software = st.selectbox("Acompanha software?", ["Sim", "Não"])
 
 # Criar DataFrame com as entradas normalizadas
 entrada = pd.DataFrame([[
-    potencia / 1000,
-    durabilidade / 20,
-    tecnologia / 10,
-    peso / 200,
+    potencia,
+    durabilidade,
+    tecnologia,
+    peso,
     1 if necessidade_energia == "Sim" else 0,
     1 if manutencao == "Sim" else 0,
     1 if iot == "Sim" else 0,
